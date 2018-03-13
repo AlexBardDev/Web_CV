@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <title>CV de Monsieur Alexandre Bardiaux</title>
+    </head>
+
+    <body id="top_page" data-spy="scroll" data-target=".navbar" >
+
+        <!-- Navigation -->
+        <header>
+            <nav class="navbar navbar-inverse navbar-fixed-top hidden-xs">
+                <div class="container">
+                    <div class="col-sm-offset-1 col-sm-5">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#top_page">Alexandre Bardiaux</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" id="accueil">Accueil <span class="caret"></span></a>
+                                <ul id="menu1" class="dropdown-menu">
+                                    <li class="dropdown-header">About me</li>
+                                    <li><a id="button1" href="#row1"><span class="glyphicon glyphicon-sunglasses"></span> Qui suis-je ?</a></li>
+                                    <li><a id="button2" href="#row2"><span class="glyphicon glyphicon-star"></span> Compétences</a></li>
+                                    <li><a id="button3" href="#row3"><span class="glyphicon glyphicon-education"></span> Formation</a></li>
+                                    <li><a id="button4" href="#row4"><span class="glyphicon glyphicon-globe"></span> Langues</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" id="contact">Contact <span class="caret"></span></a>
+                                <ul id="menu2" class="dropdown-menu">
+                                    <li class="dropdown-header">Réseaux sociaux</li>
+                                    <li class="dropdown">
+                                        <a href="#" id="sub_menu" data-toggle="dropdown"><span class="glyphicon glyphicon-menu-left"></span> Mes Profils <span id="folder" class="glyphicon glyphicon-folder-close"></span></a>
+                                        <ul class="dropdown-menu" id="sub_menu_list">
+                                            <li><a href="#" class="text-center">Facebook</a></li>
+                                            <li><a href="#" class="text-center">Linkedin</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Direct</li>
+                                    <li><a href="mailto:alexandre.bardiaux@outlook.com" title="Cliquez pour m'envoyer un e-mail"><span class="glyphicon glyphicon-envelope"></span> M'écrire par e-mail</a></li>
+                                    <li><a href="#info" data-toggle="modal"><span class="glyphicon glyphicon-earphone"></span> Numéro de téléphone</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="modal fade" id="info">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" data-dismiss="modal">x</button>
+                            <h2>Infos de contact : </h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Mon numéro de téléphone est le +32 493 70 90 67.</p>
+                            <p>Vous pouvez aussi m'écrire à l'adresse suivante : alexandre.bardiaux@outlook.com</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-inverse navbar-fixed-top visible-xs">
+                <div class="container">
+                    <div class="col-xs-12">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#top_page">Alexandre Bardiaux</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Accueil <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-header">About me</li>
+                                        <li><a id="button1" href="#row1"><span class="glyphicon glyphicon-sunglasses"></span> Qui suis-je ?</a></li>
+                                        <li><a id="button2" href="#row2"><span class="glyphicon glyphicon-star"></span> Compétences</a></li>
+                                        <li><a id="button3" href="#row3"><span class="glyphicon glyphicon-education"></span> Formation</a></li>
+                                        <li><a id="button4" href="#row4"><span class="glyphicon glyphicon-globe"></span> Langues</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Contact <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-header">Réseaux sociaux</li>
+                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="#">Linkedin</a></li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">Direct</li>
+                                        <li><a href="mailto:alexandre.bardiaux@outlook.com" title="Cliquez pour m'envoyer un e-mail"><span class="glyphicon glyphicon-envelope"></span> M'écrire par e-mail</a></li>
+                                        <li><a href="#info" data-toggle="modal"><span class="glyphicon glyphicon-earphone"></span> Numéro de téléphone</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <img class="visible-xs" src="images/photo_cv.jpg" alt="Photo de moi">
+                    <div class="hidden-xs">
+                        <figure>
+                            <img src="images/photo_cv.jpg" alt="Photo de moi">
+                        </figure>
+                        <figcaption>Survolez l'image pour l'agrandir.</figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="row"  id="row1">
+                <div class="col-xs-offset-1 col-xs-10">
+                    <h3><a href="#qui" data-toggle="collapse" class="accordeon-header">Qui suis-je ? <span id="chevron1" class="glyphicon glyphicon-chevron-down"></span></a></h3>
+                    <div class="collapse" id="qui">
+                        <p>Je m'appelle Alexandre Bardiaux et je travaille en tant que Freelance. Je suis Développeur d'Applications Web Spécialisé en Python. Je maîtrise de nombreux <a href="#" data-toggle="tooltip" title="HTML5, CSS3, JavaScript, Bootstrap, jQuery, Python, Flask, Django et UML">langages</a> et je suis capable de :</p>
+                        <ul>
+                            <li>Décrire un projet web sous forme de diagrammes compréhensibles par tout le monde avec UML.</li>
+                            <li>Créer un site web en HTML5 et CSS3.</li>
+                            <li>Faire des pages esthétiques et responsive rapidement avec Bootstrap.</li>
+                            <li>Rendre un site dynamique avec JavaScript.</li>
+                            <li>Aller encore plus loin dans l'interactivité avec jQuery.</li>
+                            <li>Coder des bases de données en SQL.</li>
+                            <li>Coder un serveur en Python à l'aide des Frameworks Flask et Django.</li>
+                        </ul>
+                        <p>J'adore <a href="#" data-toggle="tooltip" title="Thaïlande, Laos, Vietnam, Cambodge, Qatar, Pologne, Bulgarie, Allemagne, Belgique, Luxembourg, France, Espagne et les îles Canaries" data-placement="bottom">voyager</a> et je pratique la plongée sous-marine depuis mes 8 ans. Voici quelques souvenirs :</p>
+                        <div id="box">
+                            <div id="carousel" class="carousel slide">
+                                <ol class="carousel-indicators">
+                                    <li class="active" data-target="#carousel" data-slide-to="0" ></li>
+                                    <li data-target="#carousel" data-slide-to="1" ></li>
+                                    <li data-target="#carousel" data-slide-to="2" ></li>
+                                    <li data-target="#carousel" data-slide-to="3" ></li>
+                                    <li data-target="#carousel" data-slide-to="4" ></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="item active"><img src="images/img_1.jpg" alt="Plage" /></div>
+                                    <div class="item"><img src="images/img_2.jpg" alt="Cascade" /></div>
+                                    <div class="item"><img src="images/img_3.jpg" alt="Moi à la plage" /></div>
+                                    <div class="item"><img src="images/img_4.jpg" alt="Angkor Vat" /></div>
+                                    <div class="item"><img src="images/img_5.jpg" alt="Plage bis" /></div>
+                                </div>
+                                <a href="#carousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                                <a href="#carousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <div class="col-xs-offset-1 col-xs-10">
+                    <h3><a href="#competences" data-toggle="collapse" class="accordeon-header">Compétences <span id="chevron2" class="glyphicon glyphicon-chevron-down"></span></a></h3>
+                    <div class="collapse" id="competences">
+                        <p>Je suis quelqu'un d'efficace et d'autonome. Avec les langages informatiques que je maîtrise, je peux vous offrir plusieurs services :</p>
+                        <ul>
+                            <li>Représenter de manière simple et graphique (=schémas et diagrammes) votre projet afin que tout le monde ait une vision claire et puisse travailler efficacement.</li>
+                            <li>Créer de beaux sites web qui seront à la fois esthétiques, fluides et qui intégreront tout ce dont vous avez besoin (=police spécifique, audio, vidéo, codes couleurs à respecter, etc).</li>
+                            <li>Rendre votre site web dynamique, ce qui enchantera votre audience.</li>
+                            <li>Aller encore plus loin dans l'interactivité (=carrousel, menu déroulant à plusieurs niveaux, fenêtre modale, etc) et dans l'esthétisme (=insérer des icônes, des formulaires travaillés, des tableaux harmonieux, etc) pour impressioner et encore améliorer davantage votre crédibilité auprès de vos utilisateurs.</li>
+                            <li>Coder des sites web en responsive pour les utilisateurs mobiles.</li>
+                            <li>Coder des bases de données en SQL.</li>
+                            <li>Coder des serveurs web robustes qui vous permettront de créer de véritables applications web comme des tchats, des listes de commandes, etc.</li>
+                        </ul>
+                        <p>Vous pouvez voir des projets que j'ai déjà réalisés dans mon portfolio.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row3">
+                <div class="col-xs-offset-1 col-xs-10">
+                    <h3><a href="#formation" data-toggle="collapse" class="accordeon-header">Formation <span id="chevron3" class="glyphicon glyphicon-chevron-down"></span></a></h3>
+                    <div class="collapse" id="formation">
+                        <p>Je suis diplômé en tant que Développeur d'Applications Web Spécialisé en Python. Ce diplôme, ainsi que beaucoup d'autres certifications, m'ont été délivrés par OpenClassrooms. Mon diplôme ainsi que mes certifications sont consultables ici.</p>
+                        <p>Mais je suis aussi autodidacte et indépendant. J'ai appris énormément en codant et en cherchant les informations qui me manquaient sur internet (=documentation des langages, forums comme StackOverflow et autres).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row4">
+                <div class="col-xs-offset-1 col-xs-10">
+                    <h3><a href="#langues" data-toggle="collapse" class="accordeon-header">Langues <span id="chevron4" class="glyphicon glyphicon-chevron-down"></span></a></h3>
+                    <div class="collapse" id="langues">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped table-condensed">
+                                <thead>
+                                    <caption class="text-center"><h4>Mes langues :</h4></caption>
+                                    <tr id="legende">
+                                        <th>Langue</th>
+                                        <th>Niveau à l'écrit</th>
+                                        <th>Niveau à l'oral</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Français</td>
+                                        <td>Excellent</td>
+                                        <td>Excellent</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Anglais</td>
+                                        <td>Très bon</td>
+                                        <td>Très bon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Polonais</td>
+                                        <td>Notions</td>
+                                        <td>Bon</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Espagnole</td>
+                                        <td>Notions</td>
+                                        <td>Notions</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Néerlandais</td>
+                                        <td>Notions</td>
+                                        <td>Notions</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <h4 class="col-sm-offset-1 col-sm-5"><span class="glyphicon glyphicon-home"></span><a href="#top_page"> Home</a></h4>
+                <div class="col-sm-5">
+                    <h4 class="pull-right">Ce site est responsive, il est conçu pour mobile. <span class="glyphicon glyphicon-phone"></span></h4>
+                </div>
+            </div>
+        </footer>
+    
+    	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    	<script src="cv.js"></script>
+    </body>
+</html>
